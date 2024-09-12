@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<meta charset="UTF-8">
+    <meta http-equiv="  -UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Site Mobile, Site Responsivo, Responsividade" />
+	<title>Site Responsivo</title>
+    <meta name="description" content="Site prático de Responsividade Mobile">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index, follow">
+    <meta name="author" content="Ítalo Nunes">
+    <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel= 'https://fonts.googleaps.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="img/icon1.jpg">
+    </head>
+    <body>
+        <!-- CABEÇALHO --> 
+        <header class="cabecalho container">
+           <a href="../html/index.html"><img src="../img/mcdonald_s-logo-design-template-c03c253e9d3c73bacdf4d3499e6a0b72_screen-removebg-preview.png" alt="a" class="logo"></a>
+           <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+           <nav class="menu">
+               <a class="btn-close"><i class="fa fa-times"></i></a>
+               <ul>
+                   <li><a href="../html/index.html">Home</a></li>
+                   <li><a href="../html/cliente.html">Cliente</a></li>
+                   <li><a href="../html/serviços.html">Serviços</a></li>
+                   <li><a href="../html/blog.html">Blog</a></li>
+                   <li><a href="../html/qmsomos.html">Quem somos</a></li>
+                   <li><a href="../html/contato.html">Contato</a></li>
+               </ul>
+           </nav>          
+        </header>
+
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+        $(".btn-menu").click(function(){
+          $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+          $(".menu").hide();
+        });
+        </script>      
+    </body>
+</html>
